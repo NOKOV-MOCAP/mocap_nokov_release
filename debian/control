@@ -1,0 +1,12 @@
+Source: ros-melodic-mocap-nokov
+Section: misc
+Priority: optional
+Maintainer: nokov <nokov-mocap@nokov.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-roslaunch <!nocheck>, ros-melodic-roslint <!nocheck>, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-mocap-nokov
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-tf
+Description: Streaming of Nokov mocap data to tf This package contains a node that translates motion capture data from an nokov rig to tf transforms, poses and 2D poses.
