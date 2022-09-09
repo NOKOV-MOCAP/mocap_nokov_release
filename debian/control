@@ -1,0 +1,12 @@
+Source: ros-noetic-mocap-nokov
+Section: misc
+Priority: optional
+Maintainer: nokov <nokov-mocap@nokov.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-roslaunch <!nocheck>, ros-noetic-roslint <!nocheck>, ros-noetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-mocap-nokov
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-tf
+Description: Streaming of Nokov mocap data to tf This package contains a node that translates motion capture data from an nokov rig to tf transforms, poses and 2D poses.
