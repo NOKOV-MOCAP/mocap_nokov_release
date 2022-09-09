@@ -1,0 +1,25 @@
+ros-noetic-mocap-nokov (0.0.4-1buster) buster; urgency=high
+
+  * Exclude other arch lib
+  * Update CHANGELOG.rst
+    0.0.3
+  * 0.0.3
+  * Contributors: duguguang
+
+ -- nokov <nokov-mocap@nokov.com>  Thu, 08 Sep 2022 16:00:00 -0000
+
+ros-noetic-mocap-nokov (0.0.3-1buster) buster; urgency=high
+
+  * Solve lib dependency
+
+ -- nokov <nokov-mocap@nokov.com>  Mon, 05 Sep 2022 16:00:00 -0000
+
+ros-noetic-mocap-nokov (0.0.2-1buster) buster; urgency=high
+
+  * Upload project
+  * Initial commit
+  * Contributors: duguguang
+
+ -- nokov <nokov-mocap@nokov.com>  Sun, 21 Aug 2022 16:00:00 -0000
+
+
